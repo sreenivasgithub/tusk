@@ -46,3 +46,12 @@ def add(a, b):
 
 obj = add(10, 20)
 print(obj)
+
+def checkpalindrom(val):
+    a = str(val)
+    b = a[::-1]
+    if a == b:
+        print(a,' is Palindrom')
+    else:
+        print(a,' is not Palindrom')
+obj = checkpalindrom(2432)
