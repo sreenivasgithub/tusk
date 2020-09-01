@@ -22,3 +22,19 @@
 # Resetting:--
 # git log
 # git reset --hard id
+
+# Create new Branch & Merge branch & delete branch
+# Create Branch:--
+# git branch   [we will get list of branches]
+# git branch branchname
+# git checkout branchname  [switch to branch]
+# git checkout master  [switch to masterbranch]
+
+# Merge:--
+# git merge branchname
+
+# Delete:--
+# git branch -d branchname
+#------------------------------------
+
+# git checkout -b branchname [creating a new branch and active that branch]
