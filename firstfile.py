@@ -3,3 +3,4 @@ def add(a,b):
 obj = add(10,20)
 print(obj,'enuf')
 print(obj,'enuf')
+print(obj,'enuf')
