@@ -6,12 +6,12 @@
 #
 # Undoing/Reverting/Resetting CODE:----
 #
-# Undoing:-- before adding, do you want to undo your changes in a file
+# Undoing(after Adding):-- before adding, do you want to undo your changes in a file
 # git status
 # git checkout -- filename.py
 # git checkout -- .    [do you want to undo your changes in a Multiple files]
 #
-# Reverting:--
+# Reverting(after Commit):--
 # git status
 # git add filename.py
 # git commit -m 'message'
@@ -19,7 +19,7 @@
 # git revert id    [id: commit id]
 # git revert -n id [changes are cleared but not commited]
 #
-# Resetting:--
+# Resetting(after Push):--
 # git log
 # git reset --hard id
 
